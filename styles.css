@@ -1,0 +1,90 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* universal selectors */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utilities */
+.center-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+/* sections top to bottom styling */
+
+/* section 1 */
+#pimage1{
+    height: 100vh;
+    background-image:linear-gradient(to top , rgba(0, 0, 0, 0.399),rgba(0, 0, 0, 0.399)), url(images/streetImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#pimage1 h1{
+    background-color: white;
+    padding: 2%;
+}
+
+.text-part{
+    background-color: #6f9196;
+}
+
+.text-part h3{
+    font-size: 2rem;
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-block: 10% 5%;
+}
+.text-part p{
+    padding: 2%;
+    color: rgba(204, 204, 204, 0.897);
+    text-shadow: 0px 0px 20px black;
+    margin-bottom: 10%;
+}
+
+
+/* section2 */
+#pimage2{
+    height: 40vh;
+    background-image:linear-gradient(to top , rgba(0, 0, 0, 0.399),rgba(0, 0, 0, 0.399)), url(images/travelImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#pimage2 h2{
+    background-color: white;
+    padding: 2%;
+}
+
+/* section3 */
+#pimage3{
+    height: 50vh;
+    background-image:linear-gradient(to top , rgba(0, 0, 0, 0.399),rgba(0, 0, 0, 0.399)), url(images/educationImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#pimage3 h2{
+    background-color: white;
+    padding: 2%;
+}
